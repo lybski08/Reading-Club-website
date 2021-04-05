@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ebgaramond/v15/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI9_.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    font-size: 16px;
+}
+body {
+    background-color: chocolate;
+    font-family: 'EB Garamond';
+    width: 100%;
+    font-size: 16px;
+}
+header{
+    margin: 0;
+    padding:auto;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+header h1 {
+    color:rgb(252, 249, 238);
+    font-size:32px;
+}
+.navbar {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 4;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    text-align: end;
+}
+
+.navbar p{
+    font-size: 32px;
+}
+.clubtitle h2 {
+    font-size: 5em;
+    background-color: blanchedalmond;
+}
+.description h4 {
+    font-size: 3em;
+    margin: 20;
+}
+.imgs{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.imgs img{
+    max-width: 30%;
+    max-height:30%;
+    margin: 2rem;
+}
+#testimonial {
+    display:flex;
+    flex-direction:column;
+    background-color: blanchedalmond;
+    padding: 2em;
+}
+
+#testimonial h3{
+    font-style: italic;
+    font-size: 2em;
+}
+#testimonial h5{
+    font-style: italic;
+    font-size: 3em;
+    margin-top: 0.2em;
+}
+.media {
+    display: flex;
+    justify-content: center;
+}
+.media img{
+    max-height: 20%;
+    max-width:25%;
+    margin: 2rem;
+}
+#joining {
+    text-align: right;
+}
+#joining h5{
+    font-size: 4rem;
+    background-color: rgb(220, 220, 228);
+    padding-right: 1em;
+}
+.finalimg {
+    display: flex;
+    justify-content: center;
+}
+.finalimg img{
+    max-width:50%;
+    max-height: 40%;
+    margin-bottom: 10rem;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    header .navbar p{
+        font-size: 14px;
+    }
+    #presentation h2{
+        font-size:16px;
+    }
+    #presentation h4{
+        font-size: 15px;
+    }
+    #testimonial h3 {
+        font-size: 15px;
+    }
+
+    #testimonial h5{
+        font-size: 14px;
+    }
+    #joining h5{
+        font-size: 14px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    /*header .navbar p{
+        font-size: 1px;
+    }*/
+    #presentation h2{
+        font-size: 20px;
+    }
+    #presentation h4{
+        font-size: 18px;
+    }
+    #testimonial h3 {
+        font-size: 20px;
+    }
+
+    #testimonial h5{
+        font-size: 18px;
+    }
+    #joining h5{
+        font-size: 22px;
+    }
+}
+  
